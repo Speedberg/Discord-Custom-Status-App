@@ -4,6 +4,8 @@
 An app for Discord which allows for the creation of custom rich presence statuses.
 
 ## Download
+[Latest Release](https://github.com/SpeedbergDragonFire/Discord-Custom-Status-App/releases/latest)
+
 I have only tested Windows builds so far, but it should be possible to build for Mac and Linux via compiling the source code - see [Installation](#Installation).
 
 ## FAQ
