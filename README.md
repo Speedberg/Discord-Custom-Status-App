@@ -1,2 +1,37 @@
-# DiscordCustomStatusApp
- An app for Discord which allows for the creation of custom rich presence statuses.
+# Discord Custom Status App
+[Website](https://speedberg.github.io/apps/customstatus)
+
+An app for Discord which allows for the creation of custom rich presence statuses.
+
+## Download
+I have only tested Windows builds so far, but it should be possible to build for Mac and Linux via compiling the source code - see [Installation](#Installation).
+
+## FAQ
+
+### How do I close the app?
+When you close the window, the app minimizes itself to the system tray - right click and select **Quit** to close the app.
+
+### How do I set a custom application ID?
+1. Go to the [Discord developers page](https://discord.com/developers/applications) and create a new application - the name you put will be the name displayed on your status, e.g. Playing *your app name here*.
+2. Copy the number underneath **APPLICATION ID**.
+3. Paste this into the **Custom Application ID** text box and hit **Set Activity** - it might take a while to change to the new application.
+4. It should now display your app on your profile!
+
+### How do I set a custom image?
+Custom images require a url, for example https://speedberg.github.io/images/sus.png.
+
+### Does this work on mobile?
+No - this use's Discord's IPC library which only works on Desktop.
+
+### Why is your code so messy?!
+I'm sorry :(
+
+## Installation
+Dependencies:
+- Dec.DiscordIPC 1.2.2
+- Eto.Forms 2.6.1
+- Newtonsoft.Json 13.0.1
+- RestSharp 107.1.2
+- System.Text.Encodings.Web 5.0.0.1
+
+Download source code, then compile for which ever build you are targeting in the specified folder (e.g. IPCApp.Wpf for Windows)
