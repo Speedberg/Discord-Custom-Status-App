@@ -10,6 +10,9 @@ I have only tested Windows builds so far, but it should be possible to build for
 
 ## FAQ
 
+### Why doesn't my status appear?
+Make sure that **Activity Settings** -> **Activity Status** -> **Display current activity as a status message** is set to true in your Discord settings.
+
 ### How do I close the app?
 When you close the window, the app minimizes itself to the system tray - right click and select **Quit** to close the app.
 
