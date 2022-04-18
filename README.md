@@ -20,7 +20,7 @@ When you close the window, the app minimizes itself to the system tray - right c
 4. It should now display your app on your profile!
 
 ### How do I set a custom image?
-Custom images require a url, for example https://speedberg.github.io/images/sus.png.
+Custom images require a url, for example https://speedberg.github.io/images/sus.png
 
 ### Does this work on mobile?
 No - this use's Discord's IPC library which only works on Desktop.
