@@ -36,4 +36,5 @@ Dependencies:
 - RestSharp 107.1.2
 - System.Text.Encodings.Web 5.0.0.1
 
-Download source code, then compile for which ever build you are targeting in the specified folder (e.g. IPCApp.Wpf for Windows)
+Download source code, then compile for which ever build you are targeting in the specified folder (IPCApp.Wpf for Windows, IPCApp.Gtk for Linux, IPCApp.Mac for MacOS).
+For compiling on platforms other than Windows, please read [this article](https://github.com/picoe/Eto/wiki/Publishing-your-App) on publishing Eto.Forms apps.
