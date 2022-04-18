@@ -16,7 +16,7 @@ When you close the window, the app minimizes itself to the system tray - right c
 ### How do I set a custom application ID?
 1. Go to the [Discord developers page](https://discord.com/developers/applications) and create a new application - the name you put will be the name displayed on your status, e.g. Playing *your app name here*.
 2. Copy the number underneath **APPLICATION ID**.
-3. Paste this into the **Custom Application ID** text box and hit **Set Activity** - it might take a while to change to the new application.
+3. Go back to the Custom Status App, and paste the number you copied into the **Custom Application ID** text box and hit **Set Activity** - it might take a while to change to the new application.
 4. It should now display your app on your profile!
 
 ### How do I set a custom image?
